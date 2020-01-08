@@ -55,3 +55,20 @@ html, body {
     top: -75px;
     box-shadow: 0 0 0 41px -17px rgba(84, 88, 247, 1);
 }
+
+
+
+
+
+
+/* =========================
+for debugging
+========================= */
+.debug {
+    border: 1px solid red;
+}
+
+
+ /* TODO:
+    Start second video
+    Comment all the code and label what is does */
