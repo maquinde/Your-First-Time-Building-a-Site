@@ -83,7 +83,7 @@ html, body {
     padding: 10px 40px;
     color: #ffffff;
     border-radius: 5px;
-    margin-bottom: 20px;
+    margin-right: 20px;
     cursor: pointer;
 }
 
@@ -92,14 +92,16 @@ html, body {
     font-size: .9rem;
     background: white;
     border: 1px solid #f2f2f2;
-    padding: 10px 40px;
+    padding: 10px 30px;
     color: #5458f7;
     border-radius: 5px;
-    margin-bottom: 20px;
     cursor: pointer;
+    text-decoration: none;
 }
 
-
+.box .content-area .contact-section .email-button .fa-paper-plane {
+    margin-right: 10px;
+}
 
 
 
@@ -113,5 +115,5 @@ for debugging
 
 
  /* TODO:
-    Start second video 12:45
+    Start 3rd video
     Comment all the code and label what is does */
