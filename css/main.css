@@ -103,6 +103,83 @@ html, body {
     margin-right: 10px;
 }
 
+.box .content-area #social-media-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 0;
+    overflow: hidden;
+    transition: all 0.4s ease-in;
+}
+
+.box .content-area #social-media-section.active {
+    height: 50px;
+}
+
+.box .content-area #social-media-section a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    background: #eeefee;
+    margin-right: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #5458f7;
+    position: relative;
+    transition: all .4s ease-in;
+    transform: translate3d(0, -50px, 0);
+}
+
+.box .content-area #social-media-section a:hover {
+    background: #feeeee;
+    color:#f75454;
+}
+
+.box .content-area #social-media-section a:nth-child(4) {
+    margin-right: 0;
+}
+
+.box .content-area #social-media-section.active a:nth-child(4) {
+    transform: translate3d(0, 0, 0);
+    transition-delay: 0.4s;
+}
+
+.box .content-area #social-media-section.active a:nth-child(3) {
+    transform: translate3d(0, 0, 0);
+    transition-delay: 0.3s;
+}
+
+.box .content-area #social-media-section.active a:nth-child(2) {
+    transform: translate3d(0, 0, 0);
+    transition-delay: 0.2s;
+}
+
+.box .content-area #social-media-section.active a:nth-child(1) {
+    transform: translate3d(0, 0, 0);
+    transition-delay: 0;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 600px){
+    #home {
+        padding: 0 20px;
+    }
+
+    .box {
+        height: 95vh;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 320px){
+    .box .content-area .contact-section #follow-button {
+        font-size: .6rem;
+    }
+
+    .box .content-area .contact-section .email-button {
+        font-size: .6rem;
+    }
+}
 
 
 
@@ -115,5 +192,5 @@ for debugging
 
 
  /* TODO:
-    Start 3rd video
+    Start last video
     Comment all the code and label what is does */
