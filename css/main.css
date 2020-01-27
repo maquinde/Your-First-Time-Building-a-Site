@@ -3,8 +3,10 @@
     font-family: sans-serif;
 }
 
-html, body {
-    background: #eff2f9;;
+html,
+body {
+    background: #eff2f9;
+    ;
 }
 
 #home {
@@ -134,7 +136,7 @@ html, body {
 
 .box .content-area #social-media-section a:hover {
     background: #feeeee;
-    color:#f75454;
+    color: #f75454;
 }
 
 .box .content-area #social-media-section a:nth-child(4) {
@@ -161,7 +163,7 @@ html, body {
     transition-delay: 0;
 }
 
-@media only screen and (min-width: 0px) and (max-width: 600px){
+@media only screen and (min-width: 0px) and (max-width: 600px) {
     #home {
         padding: 0 20px;
     }
@@ -171,7 +173,7 @@ html, body {
     }
 }
 
-@media only screen and (min-width: 0px) and (max-width: 320px){
+@media only screen and (min-width: 0px) and (max-width: 320px) {
     .box .content-area .contact-section #follow-button {
         font-size: .6rem;
     }
@@ -191,6 +193,6 @@ for debugging
 }
 
 
- /* TODO:
+/* TODO:
     Start last video
     Comment all the code and label what is does */
